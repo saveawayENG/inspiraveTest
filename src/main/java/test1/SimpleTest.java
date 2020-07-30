@@ -33,6 +33,8 @@ public class SimpleTest {
 		
 		System.out.println(driver.findElement(By.id("openMyProfileDash2")));
 		System.out.println(driver.findElement(By.id("openMyProfileDash2")).isDisplayed());
+		driver.findElement(By.id("searchButton")).click();
+		
 		driver.findElement(By.id("openMyProfileDash2")).click();
 //		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 //		driver.findElement(By.id("login")).click();
